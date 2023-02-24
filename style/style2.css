@@ -70,6 +70,7 @@
 }
 /********************* FORM *****************/
 .formulario{
+    padding-bottom: 50px;
     background-image: url(../assets/burratisima.png);
     background-position: center;
     background-size: cover;
