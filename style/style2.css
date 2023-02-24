@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*********************HEADER************/
+.titulo {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.titulo2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 0.5px #918f8fbb solid;
+}
+
+.containerNav {
+    background-color: #808080;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.headerLogo img {
+    width: 30px;
+}
+
+.headerLogo img:hover{
+    border-radius: 8px;
+    box-shadow: 15px 10px 30px rgb(47, 255, 0);
+    background-color: rgba(185, 27, 27, 0.461);
+    cursor: pointer;  
+}
+.headerLogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headerLink {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+
+[class ^="caja-"] {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+[class ^="caja-"]:hover{
+    box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.533);
+    background-color: rgba(185, 27, 27, 0.461);
+    cursor: pointer;
+}
+/********************* FORM *****************/
+.formulario{
+    background-image: url(../assets/burratisima.png);
+    background-position: center;
+    background-size: cover;
+}
+form {
+    margin: 0.5px auto;
+    width: 325px;
+    padding: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    line-height: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgba(254, 254, 255, 0.841);
+    box-shadow: 20px 30px 50px 2px rgb(12, 12, 12);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    border: none;
+    background-color: #b6b2b28d;
+    border-radius: 4px;
+    display: inline-block;
+    width: 272px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    background-color: #b6b2b28d;;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+select[type="text"] {
+    border: none;
+    background-color: #b6b2b28d;
+    border-radius: 4px;
+    display: inline-block;
+    width: 252px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+select[type="text"]:hover {
+    box-shadow: 1px 1px 1px 0.3px rgb(73, 71, 71);
+}
+
+label {
+    width: 313px;
+    display: inline-block;
+    color: black;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 1px 1px 1px 0.3px rgb(73, 71, 71);
+}
+
+input[type="submit"]:active {
+    background-color: rgb(28, 62, 135);
+}
+
+input[type="reset"]:hover {
+    box-shadow: 1px 1px 1px 0.3px rgb(73, 71, 71);
+}
+
+input[type="reset"]:active {
+    background-color: rgb(28, 62, 135);
+}
+
+textarea {
+    background-color: #b6b2b28d;
+    border: none;
+    border-radius: 5px;
+    width: 290px;
+    height: 80px;
+}
+
+textarea:hover {
+    box-shadow: 1px 1px 1px 0.3px rgb(73, 71, 71);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style/style2.css">
+</head>
+
+<body>
+    <header>
+        <!-----Header Titulos----->
+        <div class="titulo">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="titulo2">
+            <h4>Foodshop</h4>
+        </div>
+
+        <div class="containerNav">
+            <!-----Header Logo----->
+            <div class="headerLogo">
+                <img src="../assets/logo hamburguesa.png" alt="logo hamburguesa">
+            </div>
+
+            <!-----Header link----->
+            <nav class="headerLink">
+                <a class="caja-1" href="../index.html">Home</a>
+                <a class="caja-2" href="">About</a>
+                <a class="caja-3" href="">Menu</a>
+                <a class="caja-4" href="./pages/contact.html" target="_blank">ContactUs</a>
+            </nav>
+        </div>
+    </header>
+    <!--------------------- formulario ------------------>
+    <section class="formulario">
+        <form action="#">
+            <div class="datos1">
+                <label for="select">Type of Query</label>
+                <select type="text">
+                    <option value="opcion1">opcion1</option>
+                    <option value="opcion2">opcion2</option>
+                    <option value="opcion3">opcion3</option>
+                </select>
+
+                <label for="name">Name</label>
+                <input type="text" placeholder="  Name">
+
+                <label for="email">Email-ID</label>
+                <input type="email" placeholder="   Email" required>
+
+                <label for="text">Phone-Number</label>
+                <input type="tel" placeholder="   Phone number" required>
+
+                <label for="text">Are you a menber of OnlneFoodShop:</label>
+                <input type="checkbox" name="yes" id=""> Yes
+                <input type="checkbox" name="No" id=""> No
+            </div>
+
+            <label for="text">Elaborate your query:</label>
+            <div class="datos2">
+                <textarea name="text" id="" cols="30" rows="10" maxlength="300"></textarea>
+            </div>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </section>
+</body>
+
+</html>

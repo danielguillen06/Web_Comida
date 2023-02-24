@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***************HEADER*************/
+.titulo {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.titulo2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 0.5px #918f8fbb solid;
+}
+
+.containerNav {
+    background-color: #808080;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 12px;
+}
+
+.headerLogo img {
+    width: 30px;
+}
+
+.headerLogo img:hover{
+    border-radius: 8px;
+    box-shadow: 15px 10px 30px rgb(47, 255, 0);
+    background-color: rgba(185, 27, 27, 0.461);
+    cursor: pointer;  
+}
+.headerLogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headerLink {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+
+[class ^="caja-"] {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+[class ^="caja-"]:hover{
+    box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.533);
+    background-color: rgba(185, 27, 27, 0.461);
+    cursor: pointer;
+}
+
+/****************PRESENTACION ****************/
+.presentacion{
+    border-bottom: 0.5px #918f8fbb solid;
+    padding-bottom: 30px;
+}
+.container {
+    background-image: url(../assets/burratisima.png);
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    color: rgb(12, 12, 12);
+}
+
+.boton1 { /********** botones de la paginaa********/
+    padding: 3px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: #ffff00ca;
+    text-decoration: none;
+    border: 2px solid rgb(226, 221, 221);
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.boton1:hover{
+    box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.533);
+    background-color: rgba(185, 27, 27, 0.689);
+    cursor: pointer; 
+}
+.boton1:active{
+    background-color: rgba(56, 56, 185, 0.84);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content2 {
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    gap: 100px;
+}
+
+.content2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.content2-1 img {
+    display: flex;
+    width: 280px;
+    height: 180px;
+    border-radius: 15%;
+    border: 2.3px solid rgba(48, 47, 47, 0.603);
+    box-shadow: 20px 30px 50px 2px rgb(12, 12, 12);
+}
+
+.content2-1 img:hover{
+    cursor: pointer; 
+    box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.56);
+}
+
+/*********************INFORMACION*****************/
+.tituloInformacion {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1 img {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 20px 30px 50px 2px rgb(12, 12, 12);
+}
+
+.box1 img:hover{
+    box-shadow: 15px 10px 30px rgba(48, 255, 2, 0.502);
+    cursor: pointer;
+}
+
+/************************* FOOTER*******************/
+footer{
+    border-top: 0.5px #918f8fbb solid;
+}
+.foter {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
