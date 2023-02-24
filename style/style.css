@@ -42,7 +42,7 @@
 
 .headerLogo img:hover{
     border-radius: 8px;
-    box-shadow: 15px 10px 30px rgb(47, 255, 0);
+    box-shadow: 1px 0.1px 40px rgb(47, 255, 0);
     background-color: rgba(185, 27, 27, 0.461);
     cursor: pointer;  
 }
@@ -66,7 +66,8 @@
 }
 
 [class ^="caja-"]:hover{
-    box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.533);
+    padding: 1px;
+    box-shadow: 1px 0.1px 40px rgb(47, 255, 0);
     background-color: rgba(185, 27, 27, 0.461);
     cursor: pointer;
 }
@@ -77,6 +78,7 @@
     padding-bottom: 30px;
 }
 .container {
+    padding-bottom: 40px;
     background-image: url(../assets/burratisima.png);
     background-position: center;
     background-size: cover;
@@ -86,13 +88,15 @@
 }
 
 .content {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .content h2 {
-    color: rgb(12, 12, 12);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(5, 5, 5);
 }
 
 .boton1 { /********** botones de la paginaa********/
@@ -100,17 +104,16 @@
     margin-top: 10px;
     font-weight: bold;
     color: black;
-    background-color: #ffff00ca;
+    background-color: #ffff00;
     text-decoration: none;
     border: 2px solid rgb(226, 221, 221);
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .boton1:hover{
-    box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.533);
-    background-color: rgba(185, 27, 27, 0.689);
+    background-color: rgba(234, 102, 102, 0.811);
     cursor: pointer; 
 }
 .boton1:active{
@@ -120,29 +123,49 @@
 
 .content2 {
     display: flex;
-    gap: 20px;
     justify-content:center;
     gap: 100px;
 }
 
 .content2-1 {
+    background-image: url(../assets/euro.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15%;
+    border: 2.3px solid rgba(48, 47, 47, 0.603);
+    box-shadow: 5px 10px 10px 1px rgba(27, 26, 26, 0.982);
+    width: 280px;
+    height: 180px;
     display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.content2-2{
+    background-image: url(../assets/CAMARERO.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15%;
+    border: 2.3px solid rgba(48, 47, 47, 0.603);
+    box-shadow: 5px 10px 10px 1px rgba(22, 21, 21, 0.939);
+    width: 280px;
+    height: 180px;
+    display: flex;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
     margin-top: 17px;
     margin-bottom: 20px;
 }
 
-.content2-1 img {
-    display: flex;
-    width: 280px;
-    height: 180px;
-    border-radius: 15%;
-    border: 2.3px solid rgba(48, 47, 47, 0.603);
-    box-shadow: 20px 30px 50px 2px rgb(12, 12, 12);
-}
 
-.content2-1 img:hover{
+.content2-1:hover{
+    cursor: pointer; 
+    box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.56);
+}
+.content2-2:hover{
     cursor: pointer; 
     box-shadow: 15px 10px 30px rgba(47, 255, 0, 0.56);
 }
@@ -156,34 +179,71 @@
     align-items: center;
     flex-direction: column;
     margin-top: 5px;
+    margin-bottom: 25px;
 }
 
 .boxes {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 17px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 
 .box1 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: space-around;
-}
-
-.box1 img {
-    display: flex;
+    background-image: url(../assets/arroz.jpg);
+    background-position: center;
+    background-size: cover;
     width: 400px;
     height: 300px;
     border-radius: 8px;
     border: 2px solid black;
-    box-shadow: 20px 30px 50px 2px rgb(12, 12, 12);
+    box-shadow: 10px 20px 50px 2px rgba(12, 12, 12, 0.606);
 }
 
-.box1 img:hover{
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-image: url(../assets/cocido.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 10px 20px 50px 0.5px rgba(12, 12, 12, 0.605);
+}
+.box3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-image: url(../assets/detox-week-receta-wok-verduras-1-1200x900.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 10px 20px 50px 2px rgba(12, 12, 12, 0.606);
+}
+.box1:hover{
+    box-shadow: 15px 10px 30px rgba(48, 255, 2, 0.502);
+    cursor: pointer;
+}
+.box2:hover{
+    box-shadow: 15px 10px 30px rgba(48, 255, 2, 0.502);
+    cursor: pointer;
+}
+.box3:hover{
     box-shadow: 15px 10px 30px rgba(48, 255, 2, 0.502);
     cursor: pointer;
 }
@@ -193,7 +253,7 @@ footer{
     border-top: 0.5px #918f8fbb solid;
 }
 .foter {
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 12px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
